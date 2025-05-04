@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1c29e2f7-a1f8-466c-a9d4-fb52d9fe2bec" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/CalculatorProject/src/com/example/Lv2/AppLv2.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculatorProject/src/com/example/Lv2/AppLv2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculatorProject/src/com/example/Lv3/AppLv3.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculatorProject/src/com/example/Lv3/AppLv3.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2wOO25IreOYT7yFIB2DF23EdGvl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AppLv1.executor": "Run",
+    "Application.AppLv2.executor": "Run",
+    "Application.AppLv3.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/김도현/Desktop/KAKAOTECHCAMPUS-BE1-CALCULATOR",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.AppLv2">
+    <configuration name="AppLv1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.Lv1.AppLv1" />
+      <module name="KAKAOTECHCAMPUS-BE1-CALCULATOR" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.Lv1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppLv2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.Lv2.AppLv2" />
+      <module name="KAKAOTECHCAMPUS-BE1-CALCULATOR" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.Lv2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppLv3" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.example.Lv3.AppLv3" />
+      <module name="KAKAOTECHCAMPUS-BE1-CALCULATOR" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.AppLv3" />
+      <item itemvalue="Application.AppLv1" />
+      <item itemvalue="Application.AppLv2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AppLv2" />
+        <item itemvalue="Application.AppLv1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c29e2f7-a1f8-466c-a9d4-fb52d9fe2bec" name="Changes" comment="" />
+      <created>1694406503857</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694406503857</updated>
+      <workItem from="1746364478665" duration="249000" />
+      <workItem from="1746364743962" duration="1258000" />
+      <workItem from="1746366084335" duration="1528000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

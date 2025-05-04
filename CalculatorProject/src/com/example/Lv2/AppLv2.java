@@ -24,19 +24,27 @@ public class AppLv2 {
             if (res == calculator.getList().get(calculator.getList().size() - 1))
                 System.out.println("결과: " + res);
 
-            System.out.print("더 계산하시겠습니까?\n(exit 입력 시 종료)\n(C 입력 시 모든 연산 결과 삭제)" +
-                    "\n(show 입력 시 이전 결과 출력)\n(R입력 시 첫번째 연산 결과 삭제)");
-            String input = sc.next();
-            if (input.equals("exit")) break;
-            //setter 활용
-            else if (input.equals("C")) calculator.setList(new ArrayList<>());
-            // getter 활용
-            else if (input.equals("show")) {
-                for (int i = 0; i < calculator.getList().size(); i++)
-                    System.out.println(calculator.getList().get(i));
+            while (true) {
+                System.out.print("더 계산하시겠습니까?(y를 입력하세요.)\n (exit 입력 시 종료)\n (C 입력 시 모든 연산 결과 삭제)" +
+                        "\n (show 입력 시 이전 결과 출력)\n (R입력 시 첫번째 연산 결과 삭제)\n");
+                String input = sc.next();
+                if (input.equals("exit")) break;
+                    //setter 활용
+                else if (input.equals("C")) calculator.setList(new ArrayList<>());
+                    // getter 활용
+                else if (input.equals("show")) {
+                    System.out.print("이전 결과들 : ");
+                    for (int i = 0; i < calculator.getList().size(); i++)
+                        System.out.print(calculator.getList().get(i) + " ");
+                    System.out.print("\n");
+                }
+                //삭제 메서드가 활용될 수 있도록 수정
+                else if (input.equals("R")) calculator.removeResult();
+                    // 더 계산하는 경우
+                else if (input.equals("y")) break;
+                    // 이외의 경우
+                else throw new ArithmeticException();
             }
-            //삭제 메서드가 활용될 수 있도록 수정
-            else if(input.equals("R")) calculator.removeResult();
         }
     }
 }
